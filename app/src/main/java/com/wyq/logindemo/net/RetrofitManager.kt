@@ -12,8 +12,6 @@ import java.util.concurrent.TimeUnit
  */
 class RetrofitManager {
 
-    private val BASE_URL = "http://47.111.233.78:8080/api/user/"
-
     companion object{
 
         fun <T> getService(url:String,service: Class<T>):T{
